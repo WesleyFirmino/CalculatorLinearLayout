@@ -3,16 +3,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:gravity="center"
+    android:orientation="horizontal"
     tools:context=".MainActivity">
 
     <LinearLayout
         android:id="@+id/collun_one"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="82dp"
-        android:orientation="horizontal" >
+        style="@style/default_linear_layout"
+        android:layout_marginLeft="12dp">
 
         <Button
             android:id="@+id/plus_button"
@@ -20,9 +17,51 @@
             android:text="@string/plus_button" />
 
         <Button
+            android:id="@+id/seven_button"
+            style="@style/default_button"
+            android:text="@string/seven_button" />
+
+        <Button
+            android:id="@+id/four_button"
+            style="@style/default_button"
+            android:text="@string/four_button" />
+
+        <Button
+            android:id="@+id/one_button"
+            style="@style/default_button"
+            android:text="@string/one_button" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/collun_two"
+        style="@style/default_linear_layout" >
+
+        <Button
             android:id="@+id/minus_button"
             style="@style/default_button"
             android:text="@string/minus_button" />
+
+        <Button
+            android:id="@+id/eight_button"
+            style="@style/default_button"
+            android:text="@string/eight_button" />
+
+        <Button
+            android:id="@+id/five_button"
+            style="@style/default_button"
+            android:text="@string/five_button" />
+
+        <Button
+            android:id="@+id/two_button"
+            style="@style/default_button"
+            android:text="@string/two_button" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/collun_three"
+        style="@style/default_linear_layout" >
 
         <Button
             android:id="@+id/multiply_button"
@@ -30,104 +69,39 @@
             android:text="@string/multiply_button" />
 
         <Button
-            android:id="@+id/division_button"
+            android:id="@+id/nine_button"
             style="@style/default_button"
-            android:text="@string/division_button" />
+            android:text="@string/nine_button" />
+
+        <Button
+            android:id="@+id/six_button"
+            style="@style/default_button"
+            android:text="@string/six_button" />
+
+        <Button
+            android:id="@+id/three_button"
+            style="@style/default_button"
+            android:text="@string/three_button" />
 
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/collun_two"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:id="@+id/collun_four"
+        style="@style/default_linear_layout" >
 
         <Button
-            android:id="@+id/seven_button"
+            android:id="@+id/division_button"
             style="@style/default_button"
-            android:text="@string/seven_button" />
-
-        <Button
-            android:id="@+id/eigth_button"
-            style="@style/default_button"
-            android:text="@string/eight_button" />
-
-        <Button
-            android:id="@+id/nine_button"
-            style="@style/default_button"
-            android:text="@string/nine_button" />
+            android:text="@string/division_button" />
 
         <Button
             android:id="@+id/igual_button"
             style="@style/default_button"
             android:text="@string/igual_button" />
 
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/collun_three"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <LinearLayout
-            android:id="@+id/line_one"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <Button
-                android:id="@+id/four_button"
-                style="@style/default_line_button"
-                android:text="@string/four_button" />
-
-            <Button
-                android:id="@+id/one_button"
-                style="@style/default_line_button"
-                android:text="@string/one_button" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/line_two"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <Button
-                android:id="@+id/five_button"
-                style="@style/default_line_button"
-                android:text="@string/five_button" />
-
-            <Button
-                android:id="@+id/two_button"
-                style="@style/default_line_button"
-                android:text="@string/two_button" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/line_three"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <Button
-                android:id="@+id/six_button"
-                style="@style/default_line_button"
-                android:text="@string/six_button" />
-
-            <Button
-                android:id="@+id/three_button"
-                style="@style/default_line_button"
-                android:text="@string/three_button" />
-
-        </LinearLayout>
-
         <Button
             android:id="@+id/zero_button"
             style="@style/zero_button"
-            android:layout_height="244dp"
             android:text="@string/zero_button" />
 
     </LinearLayout>
